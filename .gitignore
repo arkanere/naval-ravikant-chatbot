@@ -24,6 +24,14 @@ venv/
 env/
 ENV/
 
+# Large data files
+*.pdf
+*.pkl
+naval_vector_store.pkl
+**/naval_vector_store.pkl
+models/naval_vector_store.pkl
+vector_store/
+
 
 
 # Byte-compiled / optimized / DLL files
