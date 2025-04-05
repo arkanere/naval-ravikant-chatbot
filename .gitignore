@@ -1,3 +1,31 @@
+# API keys and sensitive information
+.env
+**/api_key*
+
+# Large data files
+*.pdf
+*.pkl
+*.bin
+vector_store/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
